@@ -1,14 +1,15 @@
-
 import './App.css'
 
 import Todos from './components/Todos'
 
 function App() {
+
+  const items = ['Learn React','Learn Typescript','Learn Node']
   
 
   return(
     <div>
-      <Todos/>
+      <Todos items={items}/>
     </div>
   )
 }
